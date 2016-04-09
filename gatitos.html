@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Parte no visible de la página-->
+<head>
+	<meta charset="UTF-8">
+	<meta content="Jose Antonio Campos Urquijo" name="author"/>
+	<meta content="Se trata de una página de prueba, de carácter académico
+					donde se pretende hacer uso básico del lenguaje html con 
+					hojas de estilo	css." name="description"/>
+	<meta content="Adopción mascotas, perros abandonados, gatos abandonados, 
+					apadrinamiento perros, apadrinamiento gatos, adopcion perros, 
+					adopcion gatos, pagina de adopción de mascotas" name="keywords"/>
+	<title>Fundación patitas de corazón</title>
+	<link rel="stylesheet" type="text/css"  href="css/normalize.css">
+	<link rel="stylesheet" type="text/css"	href="css/gallery-style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu-style.css">
+	<link rel="stylesheet" type="text/css" href="css/aside-style.css">
+	<script type="text/javascript" src=""></script>
+</head>
+<!--Parte visible de la página-->
+<body>
+	<!-- header -->
+	<header>
+		<!-- menu -->
+		<nav class="menu">
+			<ul>
+				<li class="menuaux">Síguenos en:</li>
+				<li><a href="https://www.facebook.com/">
+					<img src="img/img_004.png" alt="logo facebook">  facebook</a></li>
+				<li><a href="https://twitter.com/?lang=es">
+					<img src="img/img_003.png" alt="logo twiter">  Twiter</a></li>
+				<li><a href="https://www.instagram.com/">
+					<img src="img/img_005.png" alt="logo instagram">  Instagram</a></li>
+				<li><a href="https://www.youtube.com/">
+					<img src="img/img_006.png" alt="logo youtube">  Youtube</a></li>
+			</ul>
+		</nav>		
+		<div class="logo">
+			<a href="index.html"><img src="img/img_001.jpg" alt="fondo"></a>
+		</div>
+		<div class="enlaces">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="perritos.html">Adopta un perro</a></li>
+				<li><a href="gatitos.html">Adopta un gato</a></li>
+				<li><a href="adoptar.html">Adopta una mascota</a></li>
+				<li><a href="apadrina.html">Apadrina una mascota</a></li>
+				<li><a href="contactanos.html">Contactanos</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- section -->
+	<section id="contenedor">
+		<section id="subcontenedor1">
+			<h1>Gatos en adopción (Click sobre la imágen)</h1>
+			<article>
+				<p><a href="#img1"><img src="img/laperm.jpg" alt=""></a></p>
+				<p>Nombre: Bruno<br>Edad: 9 meses<br>Raza: <b>LaPerm</b></p>
+			</article>
+			<article>
+				<p><a href="#img2"><img src="img/siames.jpg" alt=""></a></p>
+				<p>Nombre: Goliat<br>Edad: 1 año<br>Raza: <b>Siamés</b></p>
+			</article>
+			<article>
+				<p><a href="#img3"><img src="img/bengala.jpg" alt=""></a></p>
+				<p>Nombre: Jake<br>Edad: 15 meses<br>Raza: <b>Bengala</b></p>
+			</article>
+			<article>
+				<p><a href="#img4"><img src="img/ragdoll.jpg" alt=""></a></p>
+				<p>Nombre: Cloy<br>Edad: 3 años<br>Raza: <b>Ragdoll</b></p>
+			</article>
+			<article>
+				<p><a href="#img5"><img src="img/peterbald.jpg" alt=""></a></p>
+				<p>Nombre: Joe<br>Edad: 18 meses<br>Raza: <b>Peterbald</b></p>
+			</article>
+			<article>
+				<p><a href="#img6"><img src="img/ocicat.jpg" alt=""></a></p>
+				<p>Nombre: Yeika<br>Edad: 2 años<br>Raza: <b>Ocicat</b></p>
+			</article>
+			<article>
+				<p><a href="#img7"><img src="img/ragamuffin.jpg" alt=""></a></p>
+				<p>Nombre: Tachis<br>Edad: 18 meses<br>Raza: <b>Ragamuffin</b></p>
+			</article>
+			<article>
+				<p><a href="#img8"><img src="img/himalayo.jpg" alt=""></a></p>
+				<p>Nombre: Lupy<br>Edad: 17 meses<br>Raza: <b>Himalayo</b></p>
+			</article>
+			<article>
+				<p><a href="#img9"><img src="img/japones.jpg" alt=""></a></p>
+				<p>Nombre: Mina<br>Edad: 3 años<br>Raza: <b>Japones</b></p>
+			</article>
+			<article>
+				<p><a href="#img10"><img src="img/burmilla.jpg" alt=""></a></p>
+				<p>Nombre: Tony<br>Edad: 3 meses<br>Raza: <b>Burmilla</b></p>
+			</article>
+			<div class="modal" id="img1">
+				<h3>Bruno - LaPerm</h3>
+				<div class="imagen">
+					<a href="#img10">&#60;</a>
+					<a href="#img2"><img src="img/laperm.jpg" alt=""></a>
+					<a href="#img2">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img2">
+				<h3>Goliat - Siamés</h3>
+				<div class="imagen">
+					<a href="#img1">&#60;</a>
+					<a href="#img3"><img src="img/siames.jpg" alt=""></a>
+					<a href="#img3">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img3">
+				<h3>Jake - Bengala</h3>
+				<div class="imagen">
+					<a href="#img2">&#60;</a>
+					<a href="#img4"><img src="img/bengala.jpg" alt=""></a>
+					<a href="#img4">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img4">
+				<h3>Cloy - Ragdoll</h3>
+				<div class="imagen">
+					<a href="#img3">&#60;</a>
+					<a href="#img5"><img src="img/ragdoll.jpg" alt=""></a>
+					<a href="#img5">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img5">
+				<h3>Joe - Peterbald</h3>
+				<div class="imagen">
+					<a href="#img4">&#60;</a>
+					<a href="#img6"><img src="img/peterbald.jpg" alt=""></a>
+					<a href="#img6">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img6">
+				<h3>Yeika - Ocicat</h3>
+				<div class="imagen">
+					<a href="#img5">&#60;</a>
+					<a href="#img7"><img src="img/ocicat.jpg" alt=""></a>
+					<a href="#img7">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img7">
+				<h3>Tachis - Ragamuffin</h3>
+				<div class="imagen">
+					<a href="#img6">&#60;</a>
+					<a href="#img8"><img src="img/ragamuffin.jpg" alt=""></a>
+					<a href="#img8">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img8">
+				<h3>Lupy - Himalayo</h3>
+				<div class="imagen">
+					<a href="#img7">&#60;</a>
+					<a href="#img9"><img src="img/himalayo.jpg" alt=""></a>
+					<a href="#img9">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img9">
+				<h3>Mina - Japonés</h3>
+				<div class="imagen">
+					<a href="#img8">&#60;</a>
+					<a href="#img10"><img src="img/japones.jpg" alt=""></a>
+					<a href="#img10">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+			<div class="modal" id="img10">
+				<h3>Felix - Burmilla</h3>
+				<div class="imagen">
+					<a href="#img9">&#60;</a>
+					<a href="#img1"><img src="img/burmilla.jpg" alt=""></a>
+					<a href="#img1">></a>
+				</div>
+				<a class="cerrar" href="">Salir</a>
+			</div>
+		</section>
+		<!-- aside -->
+		<aside>
+			<ul>
+				<li class="titulo">Artículos</li>
+				<li><a href="cuidados.html">¿Bañar a mi perro? ¿Con qué frecuencia?</a></li>
+				<li><a href="adoptar.html">Instucciones para adoptar</a></li>
+				<li><a href="apadrina.html">Instrucciones para apadrinar</a></li>
+				<li><a href="cuidados.html">¿Bañar a mi gato? ¿Con qué frecuencia?</a></li>
+				<li class="titulo">Instagram</li>
+				<li><img src="img/img_007.jpe" alt=""></li>
+				<li><img src="img/img_008.jpg" alt=""></li>
+				<li class="titulo">Patrocinadores</li>
+				<li><img src="img/img_009.jpg" alt=""></li>
+				<li><img src="img/img_010.jpg" alt=""></li>
+				<li><img src="img/img_011.png" alt=""></li>
+			</ul>
+		</aside>
+	</section>
+	<!-- footer -->
+	<footer>
+		<br>
+		<p>© Copyright 2016. All rights reserved.</p>
+		<p>Fundación Patitas de Corazón. Organizacion sin ánimo de lucro. NIT: 900-000000-0</p>
+		<p>Contacto: Calle 14S # 14 - 23, Bogotá D.C., telefonos: (1) 5000000 - 01800930000, </p>
+		<p>Mi primer Sitio Web. Desarrollado por: Jose Antonio Campos Urquijo</p>
+	</footer>
+</body>
+<script src="js/modernizr.js"></script>   
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script> 
+</html>
